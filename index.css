@@ -1,0 +1,176 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: "Roboto", sans-serif;;
+}
+header{
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    padding: 0 24px 0 24px;    
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    width: 24px;
+    height: 24px;
+}
+#logo-image{
+    width: 90px;
+    height: 20px;
+}
+.search{
+    width: 404px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 348px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px;
+}
+.search button{
+    width: 57px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search-image{
+    width: 24px;
+    height: 24px;
+}
+.user{
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#camera , #bell{
+    width: 24px;
+    height: 24px;
+    
+}
+
+#user-image{
+    width: 34px;
+    height: 34px;
+    
+    border-radius: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 24px;
+    width: 218px;
+    height: 968px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.sidebar-item{
+    display: flex;
+    height: 24px;
+    gap: 16px;
+}
+.layout{
+    display: flex;
+    gap: 28px;
+    width: 1440px;
+    
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+min-width: 1158px;
+gap: 16px;
+
+}
+.main__item{
+    width: 282px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+    
+}
+.main__imagem--principal img{
+    width: 250px;
+    
+}
+.main__item--description-image {
+width: 42px;
+height: 42px;
+border-radius: 50%;
+align-self: baseline;
+margin-top: 16px;
+}
+
+.dio-profile{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    
+}
+
+.main__item--description{
+    display: flex;
+    text-align: left;
+    gap: 16px;
+    align-items: center;
+    
+}
+.main__item--description-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 197px;
+    height: 74px;
+    text-align:start;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+ 
+    
+}
+.main__item--description-name p{
+    font-size: smaller;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
