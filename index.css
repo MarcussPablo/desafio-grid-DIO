@@ -101,6 +101,8 @@ aside{
     display: flex;
     height: 24px;
     gap: 16px;
+    text-align: center;
+    align-items: center;
 }
 .layout{
     display: flex;
